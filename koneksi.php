@@ -1,5 +1,5 @@
 <?php
-    $db = mysqli_connect("sql200.infinityfree.com","if0_34467138","K9FuSsBIelQh","if0_34467138_donatur");
+    $db = mysqli_connect('localhost', 'root', '', 'db_ibadah' );
     function query($query){
         global $db;
         $result = mysqli_query($db, $query);
